@@ -1,0 +1,43 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: 0;
+    font-family: "Roboto", sans-serif;
+}
+
+body {
+    background-color: lightgrey;
+}
+
+h1{
+    text-align: center;
+    font-size: 32px;
+}
+
+.parent {
+    display: grid;
+    padding-top: 15%;
+}
+
+.child {
+    margin: auto;
+    border: solid 1px black;
+    padding: 8px;
+    border-radius: 10px;
+    background-color:palegreen;
+}
+
+h1, ul li {
+    margin: 16px;
+    list-style: none;
+}
+
+form input, form button {
+    border-radius: 3px;
+    padding: 8px;
+}
+
+form button {
+    cursor: pointer;
+}
+
